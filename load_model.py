@@ -9,7 +9,7 @@ import io
 
 
 clf = load('tree.joblib') 
-label_names =["貨名","產地","PO","料號"]
+label_names =["貨名","產地","Porder","料號"]
 
 
 strTTEst="你好"
