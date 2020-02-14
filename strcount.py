@@ -14,6 +14,7 @@ def str_count(s):
         if c in string.ascii_letters:
 
             count_en += 1
+            #小寫
             if c.islower():
                 count_low+=1
 
