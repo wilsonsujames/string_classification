@@ -53,6 +53,8 @@ print(y)
 
 decision_tree = tree.DecisionTreeClassifier(criterion='gini')
 
+#這裡可以切分訓練集及測試集，這裡是將所有資料都當訓練集
+
 decision_tree.fit(X, y)
 
 dump(decision_tree, 'tree.joblib')
