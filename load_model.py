@@ -12,7 +12,7 @@ clf = load('tree.joblib')
 label_names =["貨名","產地","Porder","料號"]
 
 
-strTTEst="你好"
+strTTEst="FASHION BAG"
 count=str_count(strTTEst)
 print(count)
 my_prediction = clf.predict(count)
